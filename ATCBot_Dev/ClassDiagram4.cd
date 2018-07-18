@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ATCBot_Dev.ATCBOT_Controller">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_wx" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="ATCBot_Dev.ATCBOT_Controller.DEFINITIONS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_flight" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_speed" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_temp" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_time" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_alt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="ATCBot_Dev.ATCBOT_Controller.DATA_REQUESTS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_heading" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_route" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_plane" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="ATCBot_Dev.ATCBOT_Controller.Struct_wind" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ATCBOT_Controller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAMCAAAQAgAAACAAAABAAAAAADQAAIAQAAAAAAEAAA=</HashCode>
+      <FileName>ATCBOT_Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ATCBot_Dev.ATCBOT_View" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAEECEASBAAAAAACCIAACCSAhAAAQAQggAAAAEAAg=</HashCode>
+      <FileName>ATCBOT_View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATCBot_Dev.Program">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATCBot_Dev.Twitch_Connect">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="ATCBot_Dev.Twitch_Connect.LoginInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Twitch_Connector.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAhAjAgAACAAAAAAAQAAAAASAAAAA=</HashCode>
+      <FileName>Twitch_Connector.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="chanNameLbl" />
+      <Field Name="exit" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ATCBot_Dev.Twitch_Controller">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAAgASIAAQAAAAAEAAIQBCQAhAUAAwAAEQABA=</HashCode>
+      <FileName>Twitch_Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="instance" />
+      <Field Name="lastMessage" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="channel" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ATCBot_Dev.Twitch_Listener" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAQAA=</HashCode>
+      <FileName>Twitch_Listener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimconnectTestForm.Properties.Resources" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimconnectTestForm.Properties.Settings" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Label" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.Button" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="System.Char" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="System.TimeSpan" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
